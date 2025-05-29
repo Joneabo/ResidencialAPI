@@ -25,4 +25,7 @@ public class Urbanization {
     @Column(name = "foundation date")
     private LocalDate foundationdate;
 
+    @Column(name = "ImageURL")
+    private String imageURL;
+
 }

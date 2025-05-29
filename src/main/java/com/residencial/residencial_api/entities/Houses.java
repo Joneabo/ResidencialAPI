@@ -32,4 +32,7 @@ public class Houses {
     @Column(name = "Available")
     private boolean available;
 
+    @Column(name = "ImageURL")
+    private String imageURL;
+    
 }
