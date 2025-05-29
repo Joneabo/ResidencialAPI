@@ -34,5 +34,14 @@ public class Houses {
 
     @Column(name = "ImageURL")
     private String imageURL;
+
+    @Column(name = "Num_de_Cuartos")
+    private Integer numDeCuartos;
+
+    @Column(name = "Num_de_Banos")
+    private Integer numDeBanos;
+
+    @Column(name = "Direccion")
+    private String direccion;
     
 }
